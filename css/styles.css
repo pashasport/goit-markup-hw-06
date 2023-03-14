@@ -692,11 +692,11 @@ display: flex;
     min-height: 40px;
     display: flex;
     background-color: transparent;
-    transition: border var(--transition-dur-fun);
+    transition: border-color var(--transition-dur-fun);
   }
   .lable-subscribe .input-form:focus{
     outline: none;
-    border: 1px solid var(--button-blue-color);
+    border-color: var(--button-blue-color);
   }
   .footer-button-form:is(:hover, :focus){
     background-color: var(--background-button-color);
@@ -839,7 +839,7 @@ textarea{
 }
 .form-input:focus{
   outline: none;
-border-color: var(--button-blue-color);  
+border-color:var(--button-blue-color);  
 }
 .form-input:focus + .form-icon {
   fill: var(--button-blue-color);
